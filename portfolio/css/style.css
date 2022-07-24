@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+.section-title {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font: 18px/24px "opensans-bold", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #fff;
+	text-align: center;
+}
+
+#skills {
+	background: #1f1f1f;
+	min-height: 200px;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 10%;
+}
+
+.text-center {
+	text-align: center !important;
+	color: #d9aa00
+}
+
+/*---------------Typewriter-------------------*/
+.mytypewriter {
+	font-family: 'Courier New', Courier, monospace;
+	color: #d9aa00
+}
+
+.typewriter {
+	margin-bottom: 20px;
+}
+
+.typewriter h1 {
+	color: #fff;
+	font-family: monospace;
+	overflow: hidden;
+	/* Ensures the content is not revealed until the animation */
+	/*border-right: .15em solid orange;*/
+	/* The typwriter cursor */
+	white-space: nowrap;
+	/* Keeps the content on a single line */
+	margin: 0 auto;
+	/* Gives that scrolling effect as the typing happens */
+	letter-spacing: .15em;
+	/* Adjust as needed 
+	animation:
+		typing 3.5s steps(30, end),
+		blink-caret .5s step-end infinite;
+		*/
+}
+
+
+.btn-margin {
+	margin-top: 40px;
+
+}
+
+.myButtonedit {
+	background-color: #ffcc00;
+	-webkit-border-radius: 28px;
+	-moz-border-radius: 28px;
+	border-radius: 28px;
+	border: 1px solid #ffd500;
+	display: inline-block;
+	cursor: pointer;
+	color: #050105;
+	font-family: Arial;
+	font-size: 8px;
+	padding: 16px 31px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #b89e1a;
+}
+
+.myButtonedit:hover {
+	background-color: #fa9e00;
+}
+
+.myButton_edit:active {
+	position: relative;
+	top: 1px;
+}
+
+
+.myButtondel {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fc004c), color-stop(1, #c7020f));
+	background: -moz-linear-gradient(top, #fc004c 5%, #c7020f 100%);
+	background: -webkit-linear-gradient(top, #fc004c 5%, #c7020f 100%);
+	background: -o-linear-gradient(top, #fc004c 5%, #c7020f 100%);
+	background: -ms-linear-gradient(top, #fc004c 5%, #c7020f 100%);
+	background: linear-gradient(to bottom, #fc004c 5%, #c7020f 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fc004c', endColorstr='#c7020f', GradientType=0);
+	background-color: #fc004c;
+	-webkit-border-radius: 28px;
+	-moz-border-radius: 28px;
+	border-radius: 28px;
+	border: 1px solid #750641;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 8px;
+	padding: 16px 31px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #ff0000;
+}
+
+.myButtondel:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c7020f), color-stop(1, #fc004c));
+	background: -moz-linear-gradient(top, #c7020f 5%, #fc004c 100%);
+	background: -webkit-linear-gradient(top, #c7020f 5%, #fc004c 100%);
+	background: -o-linear-gradient(top, #c7020f 5%, #fc004c 100%);
+	background: -ms-linear-gradient(top, #c7020f 5%, #fc004c 100%);
+	background: linear-gradient(to bottom, #c7020f 5%, #fc004c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c7020f', endColorstr='#fc004c', GradientType=0);
+	background-color: #c7020f;
+}
+
+.myButtondel:active {
+	position: relative;
+	top: 1px;
+}
+
+.tooltip {
+	display: inline;
+	position: relative;
+}
+
+.tooltip:hover:after {
+	bottom: 26px;
+	content: attr(title);
+	/* este es el texto que será mostrado */
+	left: 20%;
+	position: absolute;
+	z-index: 98;
+	/* el formato gráfico */
+	background: rgba(255, 255, 255, 0.2);
+	/* el color de fondo */
+	border-radius: 5px;
+	color: #FFF;
+	/* el color del texto */
+	font-family: Georgia;
+	font-size: 12px;
+	padding: 5px 15px;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000;
+	width: 150px;
+}
+
+.tooltip:hover:before {
+	bottom: 20px;
+	content: "";
+	left: 50%;
+	position: absolute;
+	z-index: 99;
+	/* el triángulo inferior */
+	border: solid;
+	border-color: rgba(255, 255, 255, 0.2) transparent;
+	border-width: 6px 6px 0 6px;
+}
+
+.div401 {
+	background-image: url("/imagenes/401.jpg");
+	height: 100vh;
+	width: 100vw;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	height: 100%;
+	/*Solo para IE6*/
+}
+
+.div0 {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	width: 100%;
+	margin: 20px;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.div1 {
+	width: 40%;
+	height: 100%;
+	padding: 4%;
+	padding-top: 10%;
+	justify-content: center;  /*horizontal*/	
+}
+
+.div3 {
+	display: flex;
+	height: 100vh;
+	width: 40%;
+	padding-top: 10%;
+	justify-content: center;   	
+}
+.div3 img{
+	height: 50%;
+	width: 80%;	
+}
+@media only screen and (max-width: 800px) {
+	.div0 {
+		flex-direction: column;
+	}
+
+	.div1 {
+		height: 50%;
+		width: 100%;
+		overflow: auto;
+	}
+
+	.div3 {
+		height: 50%;
+		width: 100%;
+		background-size: cover;
+	}
+	.div3 img{
+		height: 70%;
+		width: 70%;	
+	}
+}
